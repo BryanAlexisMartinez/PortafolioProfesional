@@ -1,0 +1,18 @@
+.custom-img-size {
+    height: 5%;
+    width: auto;
+    
+    object-fit: cover;
+}
+
+body {
+    /* Establecer un color de fondo para el body */
+    background-color: #f8f9fa;
+}
+
+footer {
+    /* Establecer el color de fondo del footer a negro */
+    background-color: #000;
+    /* Establecer el color del texto en el footer a blanco */
+    color: #fff;
+}
