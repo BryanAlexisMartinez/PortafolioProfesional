@@ -10,9 +10,65 @@ body {
     background-color: #f8f9fa;
 }
 
-footer {
-    /* Establecer el color de fondo del footer a negro */
-    background-color: #000;
-    /* Establecer el color del texto en el footer a blanco */
-    color: #fff;
+
+.h1{
+    /* Alinear al centro todos los h1*/
+    text-align: center;
 }
+
+.card {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.cardJob:hover,
+.cardEducation:hover {
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.job {
+    text-align: center;
+    color: rgb(80, 80, 80);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.aboutMeText {
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.col.aboutMeText p {
+    max-width: 600px; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+    /* Estilos para las imágenes en la tabla */
+    .table-img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    /* Ajustar tamaño de celdas de la tabla */
+    .table td,
+    .table th {
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .btn-cv a {
+        /* Letras en blanco */
+        color: #fff;          
+        /* Sin subrayado */
+        text-decoration: none; 
+    }
+
+
+    /*Animacion imagenes*/
+    .img-responsive {
+        transition: transform 0.3s;
+    }
+
+    /*Aumenta el tamanio de la imagen*/
+    .img-responsive:hover {
+        transform: scale(1.1);
+    }
