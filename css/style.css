@@ -135,3 +135,9 @@ body {
 #btnSend:active {
     font-size: 1rem;
 }
+
+.oval-background {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 30%;
+    padding: 20px;
+}
