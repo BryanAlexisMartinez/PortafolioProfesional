@@ -76,7 +76,7 @@
         }
     });*/
 
-
+/*
     function validateForm() {
         //regex para Name, LastName y Email
         const nameRegex = /^[a-zA-Z]+$/;
