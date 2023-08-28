@@ -114,34 +114,31 @@
     <!--INICIO DEL MAIN-->
     <main class="mt-5">
 
-
-        <!--INICIO DEL CARRUSEL-->
-        <section class="principal_carousel">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./src/img/Banner/Banner_Izquierda.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./src/img/Banner/Banner_Derecha.png" class="d-block w-100" alt="...">
-                    </div>
-
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+<!--INICIO DEL CARRUSEL-->
+<section class="principal_carousel">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./src/img/Banner/Banner_Izquierda.png" class="d-block w-100" alt="...">
             </div>
-            <br />
-        </section>
-
-        <!--FIN DEL CARRUSEL-->
+            <div class="carousel-item">
+                <img src="./src/img/Banner/Banner_Derecha.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+    <br />
+</section>
+<!--FIN DEL CARRUSEL-->
 
 
         <!--INICIO ACERCA DE MI-->
@@ -511,132 +508,193 @@
         <!--FIN DE EXPERIENCIA-->
 
 
-        <!--INICIO PROYECTOS-->
-        <section class="projects">
-            <h1 class="text-center"><a name="projects" id="project">Proyectos</a></h1>
+ <!--INICIO PROYECTOS-->
 
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <!--
+    https://github.com/BryanAlexisMartinez/Face-Mask-Advisor/tree/develop
+
+    https://github.com/BryanAlexisMartinez/Kotomitl/tree/develop
+
+    https://github.com/BryanAlexisMartinez/Simulador_2021_B058/tree/develop
+
+    -->
+<!--INICIO PROYECTOS-->
+<section class="projects">
+    <div class="container text-center">
+        <h1 class="text-center"><a name="projects" id="project">Proyectos</a></h1>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./src/img/Projects/FaceMaskAdvisor/2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Face Mask Advisor</h5>
+                        <p>Aplicación que surgió gracias a las nuevas necesidades que ha traído consigo la pandemia que se vivió, tiene como finalidad llevar un control del acceso del personal a través de la detección en tiempo real con ayuda de una cámara, con estadísticas sobre el correcto uso del cubrebocas por parte del personal.</p>
+                        <a href="https://github.com/BryanAlexisMartinez/Face-Mask-Advisor/tree/develop"  target="_blank" class="btn btn-primary">Ir al proyecto</a>
+                    </div>
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="..." class="d-block w-100" alt="...">
+                
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./src/img/Projects/Kotomitl/1.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>First slide label</h5>
-                      <p>Some representative placeholder content for the first slide.</p>
+                        <h5>E-commerce Kotomitl</h5>
+                        <p>Aplicación web de un E-commerce sobre venta de ropa artesanal mexicana.</p>
+                        <a href="https://github.com/BryanAlexisMartinez/Kotomitl/tree/develop"  target="_blank" class="btn btn-primary">Ir al proyecto</a>
                     </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                      <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                  </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+                
+                <div class="carousel-item">
+                    <img src="./src/img/Projects/Simulador2021B058/1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Simulador 2021-B058</h5>
+                        <p>Aplicacion web que tiene como objetivo apoyar a alumnos y profesores de segundo año de nivel secundaria para la resolución de ecuaciones de 2x2.</p>
+                        <a href="https://github.com/BryanAlexisMartinez/Simulador_2021_B058/tree/develop"  target="_blank" class="btn btn-primary">Ir al proyecto</a>
+                    </div>
+                </div>
+                
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div></br>
+</section>
+<!--FIN DE PROYECTOS-->
+
+    <section class="projectPDF">
+        <div class="container text-center">
+            <h1 class="text-center"><a name="projects" id="project">Artículo técnico Simulador 2021-B058</a></h1>
+
+            <iframe src="src/doc/Art_Tec_2021-B058.pdf" style="width:100%; height:700px;" frameborder="0"></iframe>
+
+        </div> <br />
+        </div>
 
 
-            <div class="container text-center">
+    </section>
 
-                <iframe src="src/doc/Art_Tec_2021-B058.pdf" style="width:100%; height:700px;" frameborder="0"></iframe>
-
-            </div> <br />
-        </section>
-
-        <!--FIN DE PROYECTOS-->
+    <!--FIN DE PROYECTOS-->
 
 
 
 
-        <!--INICIO HABILIDADES TECNICAS-->
+        <!--INICIO HARD SKILLS-->
         <section class="hard_skills">
-            <h1 class="text-center"><a name="hardSkills" id="hardSkills">Habilidades Técnicas</a></h1>
+            <h1 class="text-center"><a name="hardSkills" id="hardSkills">Technical Skills</a></h1>
 
             <div class="container text-center">
-                <div class="table-responsive">
-                    <table class="table table-bordered">
+                <div class="row">
+                    <!--Primer tabla -->
+                    <div class="col-md-6">
+                        <section class="hard_skills">
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <th>Frontend</th>
+                                        <th>Backend</th>
+                                    </tr>
 
-                        <tr>
-                            <th>Frontend</th>
-                            <th>Backend</th>
-                            <th>Herramientas varias</th>
-                            <th>Bases de datos</th>
-                        </tr>
+                                    <tr>
+                                        <td><img src="./src/img/HardSkills/Frontend/HTML5.png" alt="HTML5_Logo"
+                                                class="img-responsive table-img"></td>
+                                        <td><img src="./src/img/HardSkills/Backend/Java.png" alt="Java_Logo"
+                                                class="img-responsive table-img"></td>
+                                    </tr>
 
-                        <tr>
-                            <td><img src="./src/img/HardSkills/Frontend/HTML5.png" alt="HTML5_Logo"
-                                    class="img-responsive table-img"></td>
-                            <td><img src="./src/img/HardSkills/Backend/Java.png" alt="Java_Logo"
-                                    class="img-responsive table-img"></td>
-                            <td><img src="./src/img/HardSkills/Tools/Git.png" alt="Git_Logo"
-                                    class="img-responsive table-img"></td>
-                            <td><img src="./src/img/HardSkills/Databases/MySQL.png" alt="MySQL_Logo"
-                                    class="img-responsive table-img"></td>
-                        </tr>
+                                    <tr>
+                                        <td><img src="./src/img/HardSkills/Frontend/css.png" alt="css_Logo"
+                                                class="img-responsive table-img"></td>
+                                        <td><img src="./src/img/HardSkills/Backend/Python.png" alt="Python_Logo"
+                                                class="img-responsive table-img"></td>
+                                    </tr>
 
-                        <tr>
-                            <td><img src="./src/img/HardSkills/Frontend/css.png" alt="css_Logo"
-                                    class="img-responsive table-img"></td>
-                            <td><img src="./src/img/HardSkills/Backend/Python.png" alt="Python_Logo"
-                                    class="img-responsive table-img"></td>
-                            <td><img src="./src/img/HardSkills/Tools/GitHub.png" alt="Github_Logo"
-                                    class="img-responsive table-img"></td>
-                            <td></td>
-                        </tr>
+                                    <tr>
+                                        <td><img src="./src/img/HardSkills/Frontend/JavaScript.png"
+                                                alt="Javascript_Logo" class="img-responsive table-img"></td>
+                                        <td><img src="./src/img/HardSkills/Backend/Spring.png" alt="Spring_Logo"
+                                                class="img-responsive table-img"></td>
+                                    </tr>
 
-                        <tr>
-                            <td><img src="./src/img/HardSkills/Frontend/JavaScript.png" alt="Javascript_Logo"
-                                    class="img-responsive table-img"></td>
-                            <td><img src="./src/img/HardSkills/Backend/Spring.png" alt="Spring_Logo"
-                                    class="img-responsive table-img"></td>
-                            <td><img src="./src/img/HardSkills/Tools/Postman.png" alt="HTML5_Logo"
-                                    class="img-responsive table-img"></td>
-                            <td></td>
-                        </tr>
+                                    <tr>
+                                        <td><img src="./src/img/HardSkills/Frontend/Bootstrap.png" alt="Bootstrap_Logo"
+                                                class="img-responsive table-img"></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <br />
+                        </section>
+                    </div>
 
-                        <tr>
-                            <td><img src="./src/img/HardSkills/Frontend/Bootstrap.png" alt="Bootstrap_Logo"
-                                    class="img-responsive table-img"></td>
-                            <td></td>
-                            <td><img src="./src/img/HardSkills/Tools/VisualStudioCode.png" alt="VisualStudioCode_Logo"
-                                    class="img-responsive table-img"></td>
-                            <td></td>
-                        </tr>
 
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td><img src="./src/img/HardSkills/Tools/Eclipse.png" alt="VisualStudioCode_Logo"
-                                    class="img-responsive table-img"></td>
-                            <td></td>
-                        </tr>
 
-                    </table>
+                    <!-- Segunta tabla -->
+                    <div class="col-md-6">
+                        <section class="hard_skills">
+                            <div class="container text-center">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <th>Development Tools</th>
+                                            <th>Databases</th>
+                                        </tr>
+
+                                        <tr>
+                                            <td><img src="./src/img/HardSkills/Tools/Git.png" alt="Git_Logo"
+                                                    class="img-responsive table-img"></td>
+                                            <td><img src="./src/img/HardSkills/Databases/MySQL.png" alt="MySQL_Logo"
+                                                    class="img-responsive table-img"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><img src="./src/img/HardSkills/Tools/GitHub.png" alt="Github_Logo"
+                                                    class="img-responsive table-img"></td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><img src="./src/img/HardSkills/Tools/Postman.png" alt="HTML5_Logo"
+                                                    class="img-responsive table-img"></td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><img src="./src/img/HardSkills/Tools/VisualStudioCode.png"
+                                                    alt="VisualStudioCode_Logo" class="img-responsive table-img"></td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><img src="./src/img/HardSkills/Tools/Eclipse.png" alt="Eclipse_Logo"
+                                                    class="img-responsive table-img"></td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
                 </div>
             </div>
-            <br />
 
-        </section>
-        <!--FIN DE HABILIDADES TECNICAS-->
+            <!--FIN DE HABILIDADES TECNICAS-->
 
 
 
